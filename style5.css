@@ -1,0 +1,356 @@
+body{
+    padding: 0;
+    margin: 0;
+    background:white;
+}
+
+.toparea{
+    background:#616060;
+    padding:10px 0;
+    
+}
+.logo
+{
+    padding: 5px 0 10px 20px;
+}
+.toparea h1{
+    color:white;
+    font-family: Copperplate Gothic Light;
+    font-size: xxx-large;
+}
+.social-icons i
+{
+  margin:15px 8px 0 8px; 
+  color: white;  
+  cursor:pointer;
+}
+.breaking-news-section
+{
+    padding: 0 30px 0 60px;
+    display:flex;
+    height:60px;
+  
+}
+
+#btext
+{
+    width:200px;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: rgb(54, 54, 54);
+     font-weight: 600;
+    margin:auto 0;
+    font-weight: bolder;
+}
+
+.breaking-news
+{
+    padding: 15px 30px;
+    color:black;
+    font-weight: 800;
+    display: inline-block;
+}
+.breaking-news:hover
+{
+    color: brown;
+    cursor:pointer;
+}
+
+.bntime
+{
+    display: inline-block;
+    color: rgba(177, 174, 174, 1);
+    padding: 0 10px;
+    font-size:12px;
+    
+}
+.latest
+{
+    color: black;
+    text-align: justify;
+    border: 2px solid black;
+    
+}
+.latest-news
+{
+    border: 1px solid black ;
+    margin:20px
+}
+.latest-news ul
+{
+    
+	list-style-type: lower-alpha;
+	list-style-image:url('arr.png');
+	list-style-position:inside;
+}
+.first-news
+{
+    padding: 40px 0 0 0 ;
+}
+.head
+{
+    text-align: center;
+    background-color: gray;
+    color: white;
+    font-weight: bolder;
+}
+.head li 
+{
+    font-weight: bold;
+}
+.news h3
+{
+    font-family: Copperplate Gothic Light;
+}
+.latest h2
+{
+    color: white;
+}
+.slide
+{
+    padding-top: 20px;
+}
+.slide h2
+{
+    font-family: Lucida Bright;
+    color: white;
+    background: gray;
+    text-align: center;
+    font-weight: bold;
+}
+.slide img
+{
+    height: 420px;
+    width: 670px;
+}
+.more-news
+{
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    padding: 0 5%;
+    text-align: justify;
+    margin: 30px 0 0 0;
+}
+.more-news img
+{
+    width:100%;
+}
+.news-section
+{
+    display: flex;
+    flex-basis: 60%;
+    justify-content: space-between;
+}
+aside
+{
+    flex-basis: 25%;
+    padding: 0 10px 10px 10px;
+    border: 1px solid black;
+    margin: auto 0;
+    border-radius: 5px;
+    margin-top: 11px;
+}
+aside h3
+{
+    background-color: gray;
+    color:white;
+}
+
+.world h2{
+    background-color: gray;
+    padding: 0 10px;
+    margin: 10px 0 0 0;
+    color:white;
+}
+.sport h2
+{
+    background-color: gray;
+    padding: 0 10px;
+    margin: 10px 0 0 0;
+    color: white;
+}
+.recent-news
+{
+    display: flex;
+}
+.recent-news img
+{
+width:90px ;
+height:80px ;
+margin: 10px;
+}
+.recent-news p
+{
+    font-size: 15px;
+    font-weight: bold;
+    margin: auto;
+}
+.boxarea
+{
+    background:white;
+    padding: 5px 10px 30px 10px;
+    border: 2px solid black;
+}
+.topic
+{
+    background: gray;
+    height:90px;
+}
+.boxarea h2
+{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 35px;
+}
+.boxarea h3
+{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+}
+.box
+{
+    height: 175px;
+    overflow: hidden;
+    margin: 10px;
+    border-radius: 20px;
+    width: 170px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.box img 
+{
+    border-radius: 20px;
+    transition: all 2s;
+    height: 250px;
+    width: 170px;
+}
+.box img:hover
+{
+    transform: scale(1.1,1.1);
+
+}
+
+.box
+{
+    position: relative;
+}
+.box .img-details
+{
+    display:none;
+}
+.img-details 
+{
+    font-size: 16px;
+    position: absolute;
+    color:black;
+    font-weight: bold;
+    z-index: 5;
+    bottom:0;
+  
+    padding: 0 5px;
+    
+		width:200px;
+		height:50px;
+		background:rgba(0,0,0,0.5);
+	
+		text-align:center;
+}
+
+
+.box:hover .img-details
+{
+    display: block;
+}
+.popular-news
+{
+    margin : 30px 5px;
+    padding: 2px;
+}
+.popular-news img
+{
+    width: 100%;
+    filter: brightness(0.7);
+}
+.popular-news h2
+{
+    margin: 0;
+    padding: 5px;
+    color:#fff;
+}
+.featured h2
+{
+    background-color: darkblue;
+}
+.featured img
+{
+    height: 378px;
+}
+.Entertainment h2
+{
+    background-color: darkred;
+}
+.Entertainment img
+{
+  
+    height: 188px;
+}
+.health img
+{
+    
+    height: 188px;
+}
+.health h2
+{
+    background-color: darkblue;
+}
+.news
+{
+    position: relative;
+}
+.news-text
+{
+    font-size: 14px;
+    position: absolute;
+    color:white;
+    z-index: 5;
+    bottom: 5px;
+    font-size: 18px;
+    padding: 0 10px;
+}
+.featured
+{
+    flex: 3;
+}
+.Entertainment,.health
+{
+    flex:1;
+}
+.news-text:hover
+{
+    bottom: 10px;
+}
+.footerarea
+{
+    background-color: gray;
+}
+.footer 
+{
+    color: white;
+}
+.social i
+{
+    margin:5px 8px 0 8px; 
+    color: white;  
+    cursor:pointer;
+    float: left;
+    font-size: 30px;
+}
+.social
+{
+    padding: 0  0 100px 550px;
+    
+}
